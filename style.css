@@ -1,29 +1,67 @@
 /* CSS Reset: Set default properties for all elements */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-  }
-  
-  /* Section 1 left side */
-  .section-1-img {
-    width: 100%; /* Make the image take up the full width of its container */
-    float: right; /* Position the image to the right */
-  }
-  
-  .right-half {
-    width: 50%; /* Set the width of the right half */
-    float: right; /* Position the right half to the right */
-  }
-  
-  .text-postion {
-    text-align: center; /* Center the text within its container */
-  }
-  
-  /* Section 1 right side */
-  .left-half {
-    width: 50%; /* Set the width of the left half */
-    float: left; /* Position the left half to the left */
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Whole section 1 */
+.sec-1 {
+  background-color: #a5603e; /* Set the background color for the entire section */
+}
+
+/* Section 1 left side */
+.section-1-img {
+  width: 100%; /* Make the image take up the full width of its container */
+  float: right; /* Position the image to the right */
+}
+
+.right-half {
+  width: 50%; /* Set the width of the right half */
+  float: right; /* Position the right half to the right */
+}
+
+.text-postion {
+  text-align: center; /* Center the text within its container */
+}
+
+.top-left-text-postion {
+  margin-top: 2.5%; /* Add top margin */
+  margin-left: 10%; /* Add left margin */
+  color: #EFE3B8; /* Set text color */
+}
+
+.center-text-postion {
+  margin-left: 10%; /* Add left margin */
+  margin-top: 30%; /* Add top margin */
+  color: #EFE3B8; /* Set text color */
+  font-size: 38px; /* Set font size */
+  font-weight: 200; /* Set font weight */
+}
+
+/* Button styling */
+.custom-button {
+  background-color: #a5603e; /* Set the initial background color */
+  border: 2px solid currentColor;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 16px;
+  border-radius: 10px; /* Add border radius for rounded corners */
+  border-color: #EFE3B8; /* Set border color */
+  color: #EFE3B8; /* Set text color */
+}
+
+/* Button positioning */
+.button-postioning {
+  margin-left: 10%; /* Add left margin */
+  margin-top: 5%; /* Add top margin */
+}
+
+/* Section 1 right side */
+.left-half {
+  width: 50%; /* Set the width of the left half */
+  float: left; /* Position the left half to the left */
+}
