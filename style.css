@@ -1,0 +1,29 @@
+/* CSS Reset: Set default properties for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Section 1 left side */
+  .section-1-img {
+    width: 100%; /* Make the image take up the full width of its container */
+    float: right; /* Position the image to the right */
+  }
+  
+  .right-half {
+    width: 50%; /* Set the width of the right half */
+    float: right; /* Position the right half to the right */
+  }
+  
+  .text-postion {
+    text-align: center; /* Center the text within its container */
+  }
+  
+  /* Section 1 right side */
+  .left-half {
+    width: 50%; /* Set the width of the left half */
+    float: left; /* Position the left half to the left */
+  }
+  
