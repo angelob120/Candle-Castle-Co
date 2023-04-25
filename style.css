@@ -187,6 +187,73 @@
   /* section 3 ends  */
 
 
+/* section 4 starts */
+
+/* Set the text color for the sec-4 class */
+.sec-4{
+    color: #a5603e;
+  }
+  
+  /* Set the background color for the sec-4-background class */
+  .sec-4-background{
+    background-color: #EFE3B8;
+  }
+  
+  /* Create a flex container with the row class */
+  .row {
+    display: flex;
+  }
+  
+  /* Style the left column with padding and font size */
+  .left-column {
+    flex: 1;
+    padding: 20px;
+    font-size: 1.5em;
+  }
+  
+  /* Style the right column with padding and width */
+  .right-column {
+    padding: 20px;
+    width: 65%;
+  }
+  
+  /* Create a flex container with the image-row class and apply margin and width */
+  .image-row {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Style the images within the image-row class */
+  .image-row img {
+    width: 200%;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Apply padding to the text within the text-postion-sec-4 class */
+  .text-postion-sec-4 {
+    padding-left: 20px;
+  }
+  
+  /* Style the h2 elements within the text-postion-sec-4 class */
+  .text-postion-sec-4 h2 {
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    font-size: 1.8em;
+  }
+  
+  /* Style the p elements within the text-postion-sec-4 class */
+  .text-postion-sec-4 p {
+    font-size: 1em;
+    font-weight: 100;
+  }
+  
+  /* section 4 ends */
+  
+
+
 
 /* Media Queries  */
 
