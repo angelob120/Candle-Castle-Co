@@ -251,9 +251,116 @@
   }
   
   /* section 4 ends */
+
+/* Section 5 starts */
+.sec-5 {
+    text-align: center;
+  }
   
-
-
+  /* Sets background image properties for Section 5 */
+  .sec-5-background-img {
+    background-image: url('Section 5 background.png'); /* Specifies the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Aligns the background image to the center */
+    background-size: cover; /* Ensures that the background image covers the entire element */
+    width: 100%; /* Sets the container width to 100% */
+    height: auto; /* Sets the container height to auto */
+    background-attachment: fixed; /* Sets the background image to be fixed */
+    background-position: center; /* Centers the background image */
+  }
+  
+  /* Centered text styling for Section 5 */
+  .centered-text-sec-5 {
+    text-align: center; /* Centers the text within the inner container */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%; /* Adds a margin-top of 10% */
+    margin-bottom: 10%; /* Adds a margin-bottom of 10% */
+    color: #EFE3B8; /* Sets the text color */
+  }
+  
+  /* Paragraph text styling for Section 5 */
+  .p-text-sec-5 {
+    font-weight: 300; /* Sets font-weight */
+    font-size: 3.2em; /* Sets font-size */
+    margin-bottom: 2.5%; /* Adds a margin-bottom of 2.5% */
+  }
+  /* Section 5 ends */
+  
+  /* Section 6 starts */
+  .sec-6 {
+    color: #a5603e;
+  }
+  
+  .sec-6-h1 {
+    font-weight: 100;
+  }
+  
+  /* Sets background color for Section 6 */
+  .sec-6-background-color {
+    background-color: #EFE3B8;
+  }
+  
+  /* Header text position styling for Section 6 */
+  .sec-6-header-text-postion {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: 0.8em;
+    margin-top: 2.5%;
+    font-weight: 800;
+  }
+  
+  .sec-6-header-text-postion h1 {
+    font-weight: 800;
+  }
+  
+  /* Header line text position styling for Section 6 */
+  .sec-6-headerline-text-postion {
+    margin-left: 5%;
+    margin-bottom: 2.5%;
+  }
+  
+  .sec-6-headerline-text-postion h1 {
+    font-size: 3.5em;
+  }
+  
+  /* Container styling for Section 6 */
+  .container-sec-6 {
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  /* Left column styling for Section 6 */
+  .left-sec-6 {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  
+  /* Right column styling for Section 6 */
+  .right-sec-6 {
+    margin-top: 15%;
+    float: right;
+    width: 45%;
+    margin-left: 2.5%;
+    align-items: baseline;
+  }
+  
+  /* Footer image styling for Section 6 */
+  .sec-6-footer-img {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+  }
+  
+  .sub-info-1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  /* Section 6 ends */
+  
 
 /* Media Queries  */
 
