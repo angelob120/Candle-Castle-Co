@@ -389,6 +389,61 @@
   
   /* section 3 ends  */
 
+  /* section 3 media */
+  /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+}
+
+/* Media query for 1280px screen size */
+@media screen and (max-width: 1280px) {
+}
+
+/* Media query for 768px screen size */
+@media screen and (max-width: 768px) {
+  .sec-3-h1-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: 2.5em;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .column h1{
+    font-size: 2.5em;
+  }
+
+  .column p{
+    font-size: 1.75em;
+  }
+}
+
+/* Media query for 480px screen size */
+@media screen and (max-width: 480px) {
+  .sec-3-h1-header{
+    font-size: 1.5em;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .column h1{
+    font-size: 1.75em;
+  }
+
+  .column p{
+    font-size: 1em;
+  }
+}
+
+/* section 3 media */
+
+
+
 
 /* section 4 starts */
 
@@ -455,6 +510,62 @@
   
   /* section 4 ends */
 
+
+  /* section 4 media */
+  /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+}
+
+/* Media query for 1280px screen size */
+@media screen and (max-width: 1280px) {
+}
+
+/* Media query for 768px screen size */
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .left-column{
+    font-size: 1.8em;
+  }
+  
+  .right-column {
+    width: 100%;
+  }
+}
+
+/* Media query for 480px screen size */
+@media screen and (max-width: 480px) {
+  .left-column h1{
+    font-size: 1em;
+  }
+  .text-postion-sec-4 h2 {
+    font-size: 1.4em;
+  }
+  .text-postion-sec-4 p {
+    font-size: 0.9em;
+  }
+  .right-column{
+    align-items: center;
+    align-content: center;
+  }
+  .text-postion-sec-4 h2{
+    font-size: 1em;
+    margin-right: -10%;
+  }
+  .text-postion-sec-4 p{
+    font-size: 1em;
+    margin-right: -10%;
+  }
+}
+
+  /* section 4 media */
+
+
+
+
+
 /* Section 5 starts */
 .sec-5 {
     text-align: center;
@@ -468,8 +579,7 @@
     background-size: cover; /* Ensures that the background image covers the entire element */
     width: 100%; /* Sets the container width to 100% */
     height: auto; /* Sets the container height to auto */
-    background-attachment: fixed; /* Sets the background image to be fixed */
-    background-position: center; /* Centers the background image */
+    background-position: bottom; /* Centers the background image */
   }
   
   /* Centered text styling for Section 5 */
@@ -489,6 +599,38 @@
     margin-bottom: 2.5%; /* Adds a margin-bottom of 2.5% */
   }
   /* Section 5 ends */
+
+  /* Section 5 media */
+  /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+}
+
+/* Media query for 1280px screen size */
+@media screen and (max-width: 1280px) {
+  .p-text-sec-5 {
+    font-size: 2.5em;
+  }
+}
+
+/* Media query for 768px screen size */
+@media screen and (max-width: 768px) {
+  .p-text-sec-5 {
+    font-size: 2em;
+  }
+}
+
+/* Media query for 375px screen size */
+@media screen and (max-width: 375px) {
+  .p-text-sec-5 {
+    font-size: 1em;
+  }
+}
+
+  /* section 5 media  */
+
+
+
+
   
   /* Section 6 starts */
   .sec-6 {
@@ -498,6 +640,7 @@
   .sec-6-h1 {
     font-weight: 100;
   }
+
   
   /* Sets background color for Section 6 */
   .sec-6-background-color {
@@ -553,9 +696,8 @@
   .sec-6-footer-img {
     width: 80%;
     height: 100%;
-    margin-left: 10%;
-    margin-bottom: 10%;
     border-radius: 20px;
+    margin-bottom: 10%;
   }
   
   .sub-info-1 {
@@ -563,27 +705,57 @@
     margin-bottom: 1%;
   }
   /* Section 6 ends */
-  
 
-/* Media Queries  */
 
-/* Mobile devices (320px to 480px) */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    /* Add your mobile-specific styles here */
+  /* section 6 media */
+  /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+}
+
+/* Media query for 1280px screen size */
+@media screen and (max-width: 1280px) {
+
+  .sec-6-headerline-text-postion h1 {
+    font-size: 3em;
   }
-  
-  /* Tablets and iPads (481px to 768px) */
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    /* Add your tablet-specific styles here */
+  .sec-6-h1 {
+    font-size: 4em;
   }
-  
-  /* Laptops (769px to 1024px) */
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Add your laptop-specific styles here */
+}
+
+/* Media query for 768px screen size */
+@media screen and (max-width: 768px) {
+  .sec-6-h1 {
+    font-size: 1.2em;
   }
-  
-  /* Desktops (1025px to 1200px) */
-  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    /* Add your desktop-specific styles here */
+  .sec-6-header-text-postion{
+    font-size: 1.8em;
   }
-  
+  .sec-6-headerline-text-postion h1 {
+    font-size: 2.5em;
+    margin-top: 5%;
+  }
+
+  .left-sec-6, .right-sec-6 {
+    width: 100%;
+  }
+
+  .sub-info-1{
+    margin-left: 10%;
+    margin-bottom: 0%;
+    margin-top: 2.5%;
+  }
+
+  .right-sec-6{
+    margin-bottom:10% ;
+  }
+}
+
+/* Media query for 375px screen size */
+@media screen and (max-width: 375px) {
+  .sec-6-h1 {
+    font-size: 1em;
+  }
+}
+
+  /* section 6 media */
