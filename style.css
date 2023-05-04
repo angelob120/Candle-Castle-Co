@@ -6,6 +6,9 @@
     overflow-x: hidden; /* Prevent horizontal scrolling */
   }
   
+
+
+
   /* section 1 starts */
 
   /* Whole section 1 */
@@ -38,7 +41,8 @@
     margin-left: 10%; /* Add left margin */
     margin-top: 20%; /* Add top margin */
     color: #EFE3B8; /* Set text color */
-    font-size: 1.5em; /* Set font size */
+    font-size: 2em; /* Set font size */
+    margin-bottom: 20%; /* Add top margin */
   }
   
   .sec-1-h1-1{
@@ -60,10 +64,152 @@
   
   .button-postioning {
     margin-left: 10%; /* Add left margin */
-    margin-top: 5%; /* Add top margin */
+    margin-top: -5%; /* Add top margin */
+    margin-bottom: 10%;
   }
 
   /* section 1 ends */
+
+
+  /* section 1 media */
+  /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+  /*styles for 1920px screen size here */
+}
+
+/* Media query for 1280px screen size */
+@media screen and (max-width: 1280px) {
+  .center-text-postion {
+    font-size: 1.3em;
+  }
+  .sec-1-h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* Media query for 920px screen size */
+@media screen and (max-width: 920px) {
+
+  .center-text-postion {
+    font-size: 0.7em;
+  }
+  .sec-1-h1 {
+    font-size: 1em;
+  }
+  .custom-button {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+}
+
+/* Media query for 600px screen size */
+@media screen and (max-width: 600px) {
+  .center-text-postion {
+    font-size: 0.6em;
+  }
+  .section-1-img{
+    width: 120%;
+    margin-left: 5%;
+  }
+  .center-text-postion{
+    margin-right: 10%;
+  }
+  .sec-1-h1 {
+    font-size: 0.8em;
+  }
+  .custom-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+}
+
+/* Media query for 400px screen size */
+@media screen and (max-width: 430px) {
+  .sec-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    margin-left: -20%;
+    margin-right: -20%;
+  }
+  .sec-1-mobile{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0%;
+    padding: 0%;
+
+  }
+  .section-1-img{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .sec-1{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+  }
+
+  .top-left-text-postion{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .top-left-text-postion h1{
+    margin-left: 2.5%;
+  }
+
+
+  .center-text-postion h1{
+    font-size: 1.5em;
+  }
+
+  .center-text-postion{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 50%;
+  }
+
+  .button-postioning{
+    margin-left: 20%;
+    margin-right: 0%;
+    width: 40%;
+    float: right;
+  }
+
+  .custom-button{
+    margin-top: 10%;
+  }
+
+  .left-half, .right-half{
+    width: 100%;
+  }
+  .center-text-postion {
+    font-size: 0.9em;
+  }
+  .sec-1-h1 {
+    font-size: 1.2em;
+  }
+  .custom-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .button-postioning{
+    margin-top: 30%;
+  }
+}
+
+  /* section 1 media */
+
+
+
+
+
 
   /* section 2 starts */
   
@@ -113,6 +259,63 @@
   
 
   /* section 2 ends */
+
+
+  /* section 2 media */
+  /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+  /* Styles for 1920px screen size here */
+}
+
+/* Media query for 1280px screen size */
+@media screen and (max-width: 1280px) {
+  .sec-2-h1 {
+    font-size: 1.8em;
+  }
+  .sec-2-p {
+    font-size: 0.8em;
+  }
+}
+
+/* Media query for 768px screen size */
+@media screen and (max-width: 768px) {
+  .sec-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-half-sec-2,
+  .right-half-sec-2 {
+    width: 100%;
+  }
+  .center-text-postion-sec-2 {
+    font-size: 1.3em;
+    margin-top: 20%;
+  }
+  .sec-2-h1 {
+    font-size: 3em;
+  }
+  .sec-2-p {
+    font-size: 1.25em;
+    margin-bottom: 10%;
+    margin-right: 5%;
+  }
+}
+
+/* Media query for 400px screen size */
+@media screen and (max-width: 400px) {
+  .center-text-postion-sec-2 {
+    font-size: 1em;
+    margin-top: 15%;
+  }
+  .sec-2-h1 {
+    font-size: 2em;
+  }
+  .sec-2-p {
+    font-size: 1em;
+  }
+}
+
+  /* section 2 media */
 
 
 
