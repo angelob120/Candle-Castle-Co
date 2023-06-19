@@ -9,6 +9,31 @@
 
 
 
+  /* back to the top start  */
+
+  #backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #a5603e;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #333;
+  }
+  
+
+  /* bback to the ends  */
+
   /* section 1 starts */
 
   /* Whole section 1 */
